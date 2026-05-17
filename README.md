@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/hero.svg" alt="obsidian-relate-documents — turn isolated Obsidian paper notes into a knowledge graph via hybrid tag + embedding relatedness" width="100%">
+</p>
+
 # rs-obsidian-relate-documents
 
 Compute `related-documents` Obsidian wiki-links for paper-report notes and

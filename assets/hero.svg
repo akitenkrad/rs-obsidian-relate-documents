@@ -1,0 +1,142 @@
+<svg viewBox="0 0 1280 420" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">obsidian-relate-documents</title>
+  <desc id="d">A glowing knowledge-graph constellation on a deep violet background with a faceted crystal mark, the project title, and the tagline: hybrid tag and embedding relatedness, idempotent links for Obsidian paper notes.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#160b2b"/>
+      <stop offset="0.55" stop-color="#0d0720"/>
+      <stop offset="1" stop-color="#070410"/>
+    </linearGradient>
+    <radialGradient id="blobV" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobM" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d946ef" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#d946ef" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="node" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#f5f3ff"/>
+      <stop offset="0.45" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </radialGradient>
+    <radialGradient id="nodeHot" cx="0.35" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#fdf4ff"/>
+      <stop offset="0.4" stop-color="#f0abfc"/>
+      <stop offset="1" stop-color="#a21caf"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#e879f9"/>
+    </linearGradient>
+    <linearGradient id="cryA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="cryB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#5b21b6"/>
+    </linearGradient>
+    <linearGradient id="cryC" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0abfc"/><stop offset="1" stop-color="#7e22ce"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#e9d5ff"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="48"/>
+    </filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tglow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <ellipse cx="1010" cy="180" rx="320" ry="260" fill="url(#blobV)" filter="url(#soft)"/>
+  <ellipse cx="1180" cy="330" rx="240" ry="200" fill="url(#blobM)" filter="url(#soft)"/>
+  <ellipse cx="240" cy="70" rx="260" ry="180" fill="url(#blobV)" filter="url(#soft)"/>
+
+  <!-- knowledge-graph constellation -->
+  <g transform="translate(82 10)" stroke="url(#edge)" stroke-width="1.6" opacity="0.5" fill="none" stroke-linecap="round">
+    <line x1="1040" y1="210" x2="900" y2="115"/>
+    <line x1="1040" y1="210" x2="1150" y2="140"/>
+    <line x1="1040" y1="210" x2="1110" y2="320"/>
+    <line x1="1040" y1="210" x2="1095" y2="200"/>
+    <line x1="1040" y1="210" x2="890" y2="185"/>
+    <line x1="1040" y1="210" x2="840" y2="250"/>
+    <line x1="1040" y1="210" x2="985" y2="250"/>
+    <line x1="1040" y1="210" x2="1075" y2="85"/>
+    <line x1="900" y1="115" x2="825" y2="150"/>
+    <line x1="900" y1="115" x2="890" y2="185"/>
+    <line x1="1150" y1="140" x2="1075" y2="85"/>
+    <line x1="1150" y1="140" x2="1235" y2="165"/>
+    <line x1="1150" y1="140" x2="1210" y2="250"/>
+    <line x1="1110" y1="320" x2="1210" y2="250"/>
+    <line x1="1110" y1="320" x2="1185" y2="340"/>
+    <line x1="1110" y1="320" x2="960" y2="330"/>
+    <line x1="1110" y1="320" x2="1095" y2="200"/>
+    <line x1="960" y1="330" x2="930" y2="275"/>
+    <line x1="840" y1="250" x2="835" y2="330"/>
+    <line x1="840" y1="250" x2="930" y2="275"/>
+    <line x1="1095" y1="200" x2="1210" y2="250"/>
+    <line x1="890" y1="185" x2="1075" y2="85"/>
+    <line x1="985" y1="250" x2="960" y2="330"/>
+    <line x1="840" y1="250" x2="825" y2="150"/>
+  </g>
+
+  <g transform="translate(82 10)" filter="url(#glow)">
+    <circle cx="900"  cy="115" r="14" fill="url(#node)"/>
+    <circle cx="1150" cy="140" r="17" fill="url(#node)"/>
+    <circle cx="1210" cy="250" r="13" fill="url(#node)"/>
+    <circle cx="960"  cy="330" r="12" fill="url(#node)"/>
+    <circle cx="840"  cy="250" r="15" fill="url(#node)"/>
+    <circle cx="890"  cy="185" r="11" fill="url(#node)"/>
+    <circle cx="1075" cy="85"  r="12" fill="url(#node)"/>
+    <circle cx="1185" cy="340" r="12" fill="url(#node)"/>
+    <circle cx="825"  cy="150" r="10" fill="url(#node)"/>
+    <circle cx="985"  cy="250" r="10" fill="url(#node)"/>
+    <circle cx="1235" cy="165" r="9"  fill="url(#node)"/>
+    <circle cx="930"  cy="275" r="9"  fill="url(#node)"/>
+    <circle cx="835"  cy="330" r="10" fill="url(#node)"/>
+    <circle cx="1095" cy="200" r="13" fill="url(#nodeHot)"/>
+    <circle cx="1110" cy="320" r="20" fill="url(#nodeHot)"/>
+    <circle cx="1040" cy="210" r="28" fill="url(#nodeHot)"/>
+  </g>
+
+  <!-- faceted crystal mark (Obsidian-evoking) -->
+  <g transform="translate(96 120)" filter="url(#glow)">
+    <polygon points="38,0 76,30 60,96 16,96 0,30" fill="url(#cryB)"/>
+    <polygon points="38,0 76,30 38,44" fill="url(#cryA)"/>
+    <polygon points="38,0 38,44 0,30" fill="url(#cryC)"/>
+    <polygon points="76,30 60,96 38,44" fill="url(#cryC)" opacity="0.85"/>
+    <polygon points="0,30 38,44 16,96" fill="url(#cryA)" opacity="0.7"/>
+    <polygon points="16,96 38,44 60,96" fill="url(#cryB)"/>
+    <polyline points="38,0 38,44" stroke="#ede9fe" stroke-width="1.2" opacity="0.5" fill="none"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="208" y="178" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif"
+        font-size="48" font-weight="800" fill="url(#title)" filter="url(#tglow)">obsidian-relate-documents</text>
+
+  <text x="210" y="222" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif"
+        font-size="22" font-weight="600" fill="#c4b5fd">Turn isolated Obsidian paper notes into a knowledge graph.</text>
+  <text x="210" y="252" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif"
+        font-size="19" fill="#9d8bd6">Hybrid tag-IDF + embedding relatedness · idempotent · dry-run by default.</text>
+
+  <g font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#e9d5ff">
+    <rect x="210" y="286" width="86"  height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="253" y="306" text-anchor="middle">Rust</text>
+    <rect x="306" y="286" width="78"  height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="345" y="306" text-anchor="middle">CLI</text>
+    <rect x="394" y="286" width="150" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="469" y="306" text-anchor="middle">cargo install</text>
+  </g>
+
+  <rect x="0" y="0" width="1280" height="420" fill="none" stroke="#7c3aed" stroke-opacity="0.25" stroke-width="2"/>
+</svg>
